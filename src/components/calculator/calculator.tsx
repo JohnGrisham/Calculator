@@ -47,7 +47,7 @@ export const Calculator: React.FC<CalculatorProps> = ({
               type="button"
               value="/"
             >
-              /
+              &#247;
             </button>
             <button onClick={onInput} type="button" value="7">
               7
@@ -64,7 +64,7 @@ export const Calculator: React.FC<CalculatorProps> = ({
               type="button"
               value="*"
             >
-              *
+              &times;
             </button>
             <button onClick={onInput} type="button" value="4">
               4
